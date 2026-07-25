@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Coffee — Experience The Art of Coffee</title>
+  <meta name="description" content="Nikmati racikan kopi terbaik dengan suasana modern dan sentuhan klasik. Biji kopi pilihan dari petani lokal diproses dengan teknik roasting terbaik.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. NAVBAR SECTION
+       ========================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="logo-brand">
+        <div class="logo-icon">
+          <i class="fa-solid fa-mug-hot"></i>
+        </div>
+        <span>AURA <span class="gold-text">COFFEE</span></span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#reservation" class="nav-link">Reservation</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#reservation" class="btn btn-primary" style="padding: 0.65rem 1.4rem; font-size: 0.8rem;">Book Table</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section id="home" class="hero-section" style="background-image: url('assets/images/hero-bg.png');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in-up">
+      <div class="hero-badge">
+        <i class="fa-solid fa-crown"></i> Premium Coffee Experience
+      </div>
+      <h1 class="hero-title">Experience The Art of Coffee</h1>
+      <p class="hero-description">
+        Nikmati racikan kopi terbaik dengan suasana modern dan sentuhan klasik yang memanjakan setiap momen bersantai Anda.
+      </p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">
+          <i class="fa-solid fa-utensils"></i> Explore Menu
+        </a>
+        <a href="#reservation" class="btn btn-secondary">
+          <i class="fa-solid fa-calendar-check"></i> Book Table
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll Down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ==========================================
+       3. ABOUT US SECTION
+       ========================================== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrapper fade-in-up">
+          <div class="about-img-frame">
+            <img src="assets/images/about-barista.png" alt="Barista Pouring Coffee">
+          </div>
+          <div class="about-floating-card">
+            <div class="about-floating-icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="about-floating-text">
+              <h4>100% Organic</h4>
+              <p>Specialty Local Coffee Beans</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content fade-in-up">
+          <span class="section-subtitle">Cerita Kami</span>
+          <h2 class="section-title">Crafted With Passion</h2>
+          <p class="about-text">
+            Kami menggunakan biji kopi pilihan dari petani lokal yang diproses dengan teknik roasting terbaik untuk menghasilkan cita rasa yang autentik dan tak terlupakan.
+          </p>
+          <p class="about-text">
+            Setiap cangkir menyajikan harmoni antara tradisi roasting berpengalaman dan presisi modern, menciptakan aroma hangat yang menyatukan setiap percakapan.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature-item">
+              <div class="about-feature-icon"><i class="fa-solid fa-seedling"></i></div>
+              <span>Single Origin Beans</span>
+            </div>
+            <div class="about-feature-item">
+              <div class="about-feature-icon"><i class="fa-solid fa-fire-burner"></i></div>
+              <span>Artisan Roasting</span>
+            </div>
+            <div class="about-feature-item">
+              <div class="about-feature-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+              <span>Master Baristas</span>
+            </div>
+            <div class="about-feature-item">
+              <div class="about-feature-icon"><i class="fa-solid fa-heart"></i></div>
+              <span>Made With Love</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. OUR MENU SECTION
+       ========================================== -->
+  <section id="menu" class="section-padding" style="background: rgba(75, 46, 43, 0.03);">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-subtitle">Sajian Istimewa</span>
+        <h2 class="section-title">Our Menu</h2>
+        <p class="section-description">
+          Pilihan varian minuman kopi specialty dan kudapan manis yang diracik khusus untuk melengkapi harimu.
+        </p>
+      </div>
+
+      <!-- Menu Filter Tabs -->
+      <div class="filter-tabs fade-in-up">
+        <button class="tab-btn menu-tab-btn active" data-filter="all">Semua Menu</button>
+        <button class="tab-btn menu-tab-btn" data-filter="coffee">☕ Coffee</button>
+        <button class="tab-btn menu-tab-btn" data-filter="non-coffee">🍵 Non-Coffee</button>
+        <button class="tab-btn menu-tab-btn" data-filter="dessert">🍰 Pastry & Dessert</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid fade-in-up">
+        <!-- Item 1: Espresso -->
+        <div class="menu-card glass-card" data-category="coffee">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">☕</div>
+            <span class="menu-price">Rp25.000</span>
+          </div>
+          <h3 class="menu-title">Espresso</h3>
+          <p class="menu-desc">Ekstrak kopi murni yang kaya, intens dengan crema emas yang tebal dan aroma menggugah selera.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.9 (120+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 2: Cappuccino -->
+        <div class="menu-card glass-card" data-category="coffee">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">☕</div>
+            <span class="menu-price">Rp35.000</span>
+          </div>
+          <h3 class="menu-title">Cappuccino</h3>
+          <p class="menu-desc">Perpaduan espresso seimbang dengan steamed milk creamy dan foam susu yang lembut.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 5.0 (210+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 3: Latte -->
+        <div class="menu-card glass-card" data-category="coffee">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">☕</div>
+            <span class="menu-price">Rp38.000</span>
+          </div>
+          <h3 class="menu-title">Latte</h3>
+          <p class="menu-desc">Sensasi kopi bertekstur halus dengan paduan susu segar hangat dan sentuhan latte art estetik.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.9 (180+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 4: Cold Brew Artisan -->
+        <div class="menu-card glass-card" data-category="coffee">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">🧊</div>
+            <span class="menu-price">Rp32.000</span>
+          </div>
+          <h3 class="menu-title">Cold Brew Artisan</h3>
+          <p class="menu-desc">Seduhan dingin selama 16 jam menghasilkan kopi yang sangat lembut, rendah asam, dan segar.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.8 (95+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 5: Cheesecake -->
+        <div class="menu-card glass-card" data-category="dessert">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">🍰</div>
+            <span class="menu-price">Rp40.000</span>
+          </div>
+          <h3 class="menu-title">Cheesecake</h3>
+          <p class="menu-desc">Kue keju panggang khas New York yang lumer di mulut dengan saus berry segar pilihan.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 5.0 (340+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 6: Croissant -->
+        <div class="menu-card glass-card" data-category="dessert">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">🥐</div>
+            <span class="menu-price">Rp30.000</span>
+          </div>
+          <h3 class="menu-title">Croissant</h3>
+          <p class="menu-desc">Roti croissant mentega Prancis yang renyah di luar, sangat empuk dan berlapis di dalam.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.9 (150+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 7: Matcha Latte Gold -->
+        <div class="menu-card glass-card" data-category="non-coffee">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">🍵</div>
+            <span class="menu-price">Rp36.000</span>
+          </div>
+          <h3 class="menu-title">Matcha Latte Gold</h3>
+          <p class="menu-desc">Matcha ceremonial grade Uji Jepang yang otentik dipadu dengan fresh milk yang creamy.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.8 (80+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+
+        <!-- Item 8: Chocolate Danish -->
+        <div class="menu-card glass-card" data-category="dessert">
+          <div class="menu-card-top">
+            <div class="menu-icon-badge">🥐</div>
+            <span class="menu-price">Rp28.000</span>
+          </div>
+          <h3 class="menu-title">Chocolate Danish</h3>
+          <p class="menu-desc">Pastry hangat berisi lelehan cokelat Belgian gelap yang manis gurih sempurna.</p>
+          <div class="menu-footer">
+            <div class="menu-rating"><i class="fa-solid fa-star"></i> 4.9 (110+)</div>
+            <button class="btn-order-quick"><i class="fa-brands fa-whatsapp"></i> Pesan WA</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. GALLERY SECTION
+       ========================================== -->
+  <section id="gallery" class="section-padding">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-subtitle">Galeri Foto</span>
+        <h2 class="section-title">Atmosphere & Art</h2>
+        <p class="section-description">
+          Intip suasana modern klasik dan keindahan sajian di Aura Coffee.
+        </p>
+      </div>
+
+      <!-- Gallery Filters -->
+      <div class="filter-tabs fade-in-up">
+        <button class="tab-btn gallery-tab-btn active" data-filter="all">Semua</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="coffee">Coffee</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="cafe">Cafe</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="dessert">Dessert</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="barista">Barista</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="interior">Interior</button>
+        <button class="tab-btn gallery-tab-btn" data-filter="outdoor">Outdoor</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid fade-in-up">
+        <div class="gallery-item" data-category="coffee">
+          <img src="assets/images/hero-bg.png" alt="Artisan Espresso Crema">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Artisan Espresso</h3>
+            <span class="gallery-category">Coffee</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="interior">
+          <img src="assets/images/cafe-interior.png" alt="Modern Classic Interior">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Classic Ambience</h3>
+            <span class="gallery-category">Interior</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="barista">
+          <img src="assets/images/about-barista.png" alt="Barista Latte Art Crafting">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Latte Art Crafting</h3>
+            <span class="gallery-category">Barista</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dessert">
+          <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80" alt="Cheesecake Berry">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Signature Cheesecake</h3>
+            <span class="gallery-category">Dessert</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="outdoor">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Outdoor Garden Terrace">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Garden Outdoor Terrace</h3>
+            <span class="gallery-category">Outdoor</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="cafe">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Cafe Seating Area">
+          <div class="gallery-overlay">
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <h3 class="gallery-title">Cozy Reading Nook</h3>
+            <span class="gallery-category">Cafe</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+      <img src="" alt="Zoomed Gallery Image" id="lightbox-img" class="lightbox-img">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       6. WHY CHOOSE US & COUNTER SECTION
+       ========================================== -->
+  <section id="why-us" class="section-padding" style="background: rgba(75, 46, 43, 0.03);">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-subtitle">Keunggulan Kami</span>
+        <h2 class="section-title">Why Choose Us</h2>
+        <p class="section-description">
+          Alasan mengapa Aura Coffee menjadi destinasi kopi utama para penikmat kopi sejati.
+        </p>
+      </div>
+
+      <div class="features-grid fade-in-up">
+        <div class="feature-card glass-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Premium Beans</h3>
+          <p>Biji kopi grade 1 dipetik secara manual dari perkebunan terbaik Nusantara.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3>Fresh Everyday</h3>
+          <p>Roasting fresh setiap minggu untuk memastikan kualitas aroma terjaga prima.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-user-ninja"></i>
+          </div>
+          <h3>Professional Barista</h3>
+          <p>Diseduh oleh barista bersertifikasi internasional dengan teknik presisi tinggi.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-wifi"></i>
+          </div>
+          <h3>Free High-Speed WiFi</h3>
+          <p>Koneksi internet super cepat hingga 200 Mbps untuk wfh atau nongkrong nyaman.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-music"></i>
+          </div>
+          <h3>Cozy Atmosphere</h3>
+          <p>Musik jazz lembut dan pencahayaan hangat modern klasik yang menenangkan.</p>
+        </div>
+      </div>
+
+      <!-- Animated Counters Bar -->
+      <div class="counter-box fade-in-up" id="counter-section">
+        <div class="counter-grid">
+          <div class="counter-item">
+            <h3 class="counter-number" data-target="25" data-suffix="+">0</h3>
+            <p>Varian Coffee</p>
+          </div>
+          <div class="counter-item">
+            <h3 class="counter-number" data-target="100" data-suffix="%">0</h3>
+            <p>Organik Local Beans</p>
+          </div>
+          <div class="counter-item">
+            <h3 class="counter-number" data-target="50000" data-suffix="+">0</h3>
+            <p>Pelanggan Setia</p>
+          </div>
+          <div class="counter-item">
+            <h3 class="counter-number" data-target="12" data-suffix="+">0</h3>
+            <p>Penghargaan Roastery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. TESTIMONIAL SECTION
+       ========================================== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <span class="section-subtitle">Ulasan Pelanggan</span>
+        <h2 class="section-title">What They Say</h2>
+        <p class="section-description">
+          Pengalaman berkesan dari para penikmat kopi yang telah mengunjungi Aura Coffee.
+        </p>
+      </div>
+
+      <div class="testimonial-grid fade-in-up">
+        <div class="testimonial-card glass-card">
+          <i class="fa-solid fa-quote-right quote-icon"></i>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Tempatnya nyaman dan kopinya luar biasa. Varian Cold Brew dan Cheesecake-nya beneran nagih banget!"</p>
+          <div class="client-info">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="Sarah A." class="client-avatar">
+            <div class="client-details">
+              <h4>Sarah Aulia</h4>
+              <p>Coffee Lover</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card">
+          <i class="fa-solid fa-quote-right quote-icon"></i>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Interior modern klasik yang sangat estetik. Cocok banget buat meeting santai maupun WFC seharian."</p>
+          <div class="client-info">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Dimas R." class="client-avatar">
+            <div class="client-details">
+              <h4>Dimas Rahardian</h4>
+              <p>Creative Director</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card">
+          <i class="fa-solid fa-quote-right quote-icon"></i>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Pelayanan baristanya ramah banget. Setiap racikan lattenya selalu konsisten cita rasanya."</p>
+          <div class="client-info">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Maya P." class="client-avatar">
+            <div class="client-details">
+              <h4>Maya Putri</h4>
+              <p>Food Blogger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. RESERVATION SECTION
+       ========================================== -->
+  <section id="reservation" class="section-padding" style="background: rgba(75, 46, 43, 0.03);">
+    <div class="container">
+      <div class="reservation-box fade-in-up">
+        <!-- Pane Kiri: Info & Atmosphere -->
+        <div class="reservation-info-pane">
+          <h3>Reserve Your Table</h3>
+          <p>Pastikan meja favoritmu siap sebelum kedatangan untuk momen bersantai terbaik bersama pasangan, teman, atau kolega.</p>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <strong>Jam Operasional</strong>
+                <p style="margin: 0; font-size: 0.85rem;">Senin – Minggu: 07:00 – 22:00 WIB</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Telepon / WhatsApp</strong>
+                <p style="margin: 0; font-size: 0.85rem;">+62 812-3456-7890</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Lokasi Store</strong>
+                <p style="margin: 0; font-size: 0.85rem;">Jl. Senopati No. 88, Kebayoran Baru, Jakarta Selatan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pane Kanan: Form Reservasi -->
+        <div class="reservation-form-pane">
+          <form id="reservation-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="res-name">Nama Lengkap *</label>
+                <input type="text" id="res-name" class="form-control" placeholder="Contoh: Budi Santoso" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="res-email">Email *</label>
+                <input type="email" id="res-email" class="form-control" placeholder="budi@gmail.com" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="res-date">Tanggal *</label>
+                <input type="date" id="res-date" class="form-control" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="res-time">Jam *</label>
+                <select id="res-time" class="form-control" required>
+                  <option value="">Pilih Jam</option>
+                  <option value="08:00">08:00 WIB</option>
+                  <option value="10:00">10:00 WIB</option>
+                  <option value="12:00">12:00 WIB</option>
+                  <option value="14:00">14:00 WIB</option>
+                  <option value="16:00">16:00 WIB</option>
+                  <option value="18:00">18:00 WIB</option>
+                  <option value="20:00">20:00 WIB</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label" for="res-guests">Jumlah Orang *</label>
+                <select id="res-guests" class="form-control" required>
+                  <option value="1 Orang">1 Orang</option>
+                  <option value="2 Orang" selected>2 Orang (Pasangan/Teman)</option>
+                  <option value="3-4 Orang">3-4 Orang (Group Kecil)</option>
+                  <option value="5+ Orang">5+ Orang (Meeting/Gathering)</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label" for="res-notes">Catatan Khusus (Opsional)</label>
+                <textarea id="res-notes" class="form-control" placeholder="Misal: Meja dekat jendela outdoor, uap espresso ringan..."></textarea>
+              </div>
+
+              <div class="form-group full-width" style="margin-top: 1rem;">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <i class="fa-solid fa-paper-plane"></i> Reserve Now
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Success Modal -->
+  <div class="modal-overlay" id="reservation-modal">
+    <div class="modal-card">
+      <div class="modal-icon">
+        <i class="fa-solid fa-check"></i>
+      </div>
+      <h3 style="font-size: 1.75rem; margin-bottom: 1rem;">Reservasi Berhasil!</h3>
+      <div id="modal-summary" style="margin-bottom: 1.75rem; font-size: 0.95rem; color: var(--color-text-muted);"></div>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <button id="wa-confirm-btn" class="btn btn-primary" style="background: #25d366; border-color: #25d366; color: #fff;">
+          <i class="fa-brands fa-whatsapp"></i> Konfirmasi via WA
+        </button>
+        <button id="modal-close-btn" class="btn btn-outline-gold">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       9. FOOTER SECTION
+       ========================================== -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid fade-in-up">
+        <!-- Col 1: Brand & Socials -->
+        <div class="footer-brand">
+          <a href="#home" class="logo-brand">
+            <div class="logo-icon">
+              <i class="fa-solid fa-mug-hot"></i>
+            </div>
+            <span>AURA <span class="gold-text">COFFEE</span></span>
+          </a>
+          <p>
+            Experience The Art of Coffee. Menghadirkan kenikmatan kopi pilihan Nusantara dengan atmosfer modern klasik yang elegan.
+          </p>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="social-icon" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="footer-heading">Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#menu">Menu Spesial</a></li>
+            <li><a href="#gallery">Galeri Foto</a></li>
+            <li><a href="#reservation">Reservasi Online</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Operational Info -->
+        <div>
+          <h4 class="footer-heading">Jam Buka</h4>
+          <ul class="footer-links">
+            <li><strong>Senin - Jumat:</strong><br>07:00 - 22:00 WIB</li>
+            <li><strong>Sabtu - Minggu:</strong><br>07:00 - 23:00 WIB</li>
+            <li style="margin-top: 0.5rem; color: var(--color-gold);"><i class="fa-solid fa-circle-check"></i> Open Everyday</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Google Maps Location -->
+        <div>
+          <h4 class="footer-heading">Lokasi Kami</h4>
+          <p style="font-size: 0.85rem; margin-bottom: 0.75rem; color: var(--color-cream-dark);">
+            Jl. Senopati No. 88, Kebayoran Baru, Jakarta Selatan 12190
+          </p>
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.273183569766!2d106.80665531476916!3d-6.227670995491873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15037d04e6d%3A0x6b82aa1e3a6c116c!2sSenopati%2C%20Kec.%20Kby.%20Baru%2C%20Kota%20Jakarta%20Selatan!5e0!3m2!1sid!2sid!4v1670000000000!5m2!1sid!2sid" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Maps Location">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2026 Aura Coffee. All Rights Reserved.</p>
+        <p>Crafted with <i class="fa-solid fa-heart" style="color: var(--color-gold);"></i> Modern Classic Style</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Aura%20Coffee!%20Saya%20ingin%20bertanya%20mengenai%20menu%20atau%20reservasi." 
+     target="_blank" 
+     rel="noopener" 
+     class="whatsapp-float" 
+     aria-label="Chat WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
